@@ -7,7 +7,7 @@ from rclpy.node import Node
 class MyNode(Node):
 
     def __init__(self):
-        super().__init__("py_test")
+        super().__init__("node1")
         self.counter_ = 0
         self.get_logger().info("Oi, mundo!")
         self.create_timer(1.0, self.timer_callback) # chama a função a cada 1 segundo
