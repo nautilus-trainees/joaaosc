@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'py_node = meu_pacote.node1:main',
         ],
     },
 )
