@@ -3,7 +3,7 @@ name = "meu_pacote"
 version = "0.0.0"
 description = "Projeto ROS 2 com domínio, serviços e adaptadores."
 # Estes campos vêm do setup.py (colcon), não deste arquivo.
-dynamic = ["dependencies", "license", "maintainers", "optional-dependencies"]
+dynamic = ["dependencies", "license", "maintainers", "optional-dependencies", "scripts"]
 
 [dependency-groups]
 dev = ["pytest"]
