@@ -16,7 +16,7 @@ setup(
     maintainer='joaaosc',
     maintainer_email='86691551+joaaosc@users.noreply.github.com',
     description='TODO: Package description',
-    license='TODO: License declaration',
+    license='MIT-0',
     extras_require={
         'test': [
             'pytest',
