@@ -1,0 +1,39 @@
+# Byte-code e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais (o uv cria .venv localmente)
+.venv/
+venv/
+env/
+
+# Metadados e saídas de build do Python
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+.eggs/
+
+# Saídas do colcon (ROS 2)
+install/
+log/
+
+# Ferramentas de teste e lint
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Arquivos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Arquivos temporários de editores
+*.swp
+*.swo
+*~
