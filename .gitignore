@@ -33,6 +33,9 @@ htmlcov/
 .LSOverride
 ._*
 
+# Arquivo de dúvidas e markdowns inúteis
+duvidas.txt
+
 # Arquivos temporários de editores
 *.swp
 *.swo

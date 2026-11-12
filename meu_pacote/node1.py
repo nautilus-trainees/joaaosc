@@ -22,6 +22,8 @@ def main(args=None):
     node = MyNode() # Pega nossa classe MyNode herdada de Node
     rclpy.spin(node)
     rclpy.shutdown()
+    # sobre spin: executa um loop para manter o nó vivo esperando por eventos e executando seus callbacks
+    # callback: é uma função passada como argumento para outro código que será executada futuramente
 
 if __name__ == '__main__':
     main()
